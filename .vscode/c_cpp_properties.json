@@ -4,16 +4,16 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include",
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/i386"
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/**",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/i386/**"
             ],
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "compilerPath": "/usr/bin/cpp",
-            "cStandard": "c11",
-            "cppStandard": "c++98",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
             "intelliSenseMode": "macos-clang-x64"
         }
     ],
